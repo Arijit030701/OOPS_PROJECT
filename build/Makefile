@@ -224,6 +224,30 @@ src/Location.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Location.cpp.s
 .PHONY : src/Location.cpp.s
 
+src/Payment.obj: src/Payment.cpp.obj
+.PHONY : src/Payment.obj
+
+# target to build an object file
+src/Payment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Payment.cpp.obj
+.PHONY : src/Payment.cpp.obj
+
+src/Payment.i: src/Payment.cpp.i
+.PHONY : src/Payment.i
+
+# target to preprocess a source file
+src/Payment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Payment.cpp.i
+.PHONY : src/Payment.cpp.i
+
+src/Payment.s: src/Payment.cpp.s
+.PHONY : src/Payment.s
+
+# target to generate assembly for a file
+src/Payment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Payment.cpp.s
+.PHONY : src/Payment.cpp.s
+
 src/Person.obj: src/Person.cpp.obj
 .PHONY : src/Person.obj
 
@@ -247,6 +271,30 @@ src/Person.s: src/Person.cpp.s
 src/Person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Person.cpp.s
 .PHONY : src/Person.cpp.s
+
+src/Ride.obj: src/Ride.cpp.obj
+.PHONY : src/Ride.obj
+
+# target to build an object file
+src/Ride.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Ride.cpp.obj
+.PHONY : src/Ride.cpp.obj
+
+src/Ride.i: src/Ride.cpp.i
+.PHONY : src/Ride.i
+
+# target to preprocess a source file
+src/Ride.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Ride.cpp.i
+.PHONY : src/Ride.cpp.i
+
+src/Ride.s: src/Ride.cpp.s
+.PHONY : src/Ride.s
+
+# target to generate assembly for a file
+src/Ride.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Ride.cpp.s
+.PHONY : src/Ride.cpp.s
 
 src/User.obj: src/User.cpp.obj
 .PHONY : src/User.obj
@@ -341,9 +389,15 @@ help:
 	@echo ... src/Location.obj
 	@echo ... src/Location.i
 	@echo ... src/Location.s
+	@echo ... src/Payment.obj
+	@echo ... src/Payment.i
+	@echo ... src/Payment.s
 	@echo ... src/Person.obj
 	@echo ... src/Person.i
 	@echo ... src/Person.s
+	@echo ... src/Ride.obj
+	@echo ... src/Ride.i
+	@echo ... src/Ride.s
 	@echo ... src/User.obj
 	@echo ... src/User.i
 	@echo ... src/User.s

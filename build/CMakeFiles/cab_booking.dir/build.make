@@ -131,11 +131,26 @@ CMakeFiles/cab_booking.dir/src/Location.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cab_booking.dir/src/Location.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Location.cpp -o CMakeFiles\cab_booking.dir\src\Location.cpp.s
 
+CMakeFiles/cab_booking.dir/src/Payment.cpp.obj: CMakeFiles/cab_booking.dir/flags.make
+CMakeFiles/cab_booking.dir/src/Payment.cpp.obj: CMakeFiles/cab_booking.dir/includes_CXX.rsp
+CMakeFiles/cab_booking.dir/src/Payment.cpp.obj: C:/Users/ariji/OneDrive/Desktop/CabBookingSystem/src/Payment.cpp
+CMakeFiles/cab_booking.dir/src/Payment.cpp.obj: CMakeFiles/cab_booking.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cab_booking.dir/src/Payment.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cab_booking.dir/src/Payment.cpp.obj -MF CMakeFiles\cab_booking.dir\src\Payment.cpp.obj.d -o CMakeFiles\cab_booking.dir\src\Payment.cpp.obj -c C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Payment.cpp
+
+CMakeFiles/cab_booking.dir/src/Payment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cab_booking.dir/src/Payment.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Payment.cpp > CMakeFiles\cab_booking.dir\src\Payment.cpp.i
+
+CMakeFiles/cab_booking.dir/src/Payment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cab_booking.dir/src/Payment.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Payment.cpp -o CMakeFiles\cab_booking.dir\src\Payment.cpp.s
+
 CMakeFiles/cab_booking.dir/src/Person.cpp.obj: CMakeFiles/cab_booking.dir/flags.make
 CMakeFiles/cab_booking.dir/src/Person.cpp.obj: CMakeFiles/cab_booking.dir/includes_CXX.rsp
 CMakeFiles/cab_booking.dir/src/Person.cpp.obj: C:/Users/ariji/OneDrive/Desktop/CabBookingSystem/src/Person.cpp
 CMakeFiles/cab_booking.dir/src/Person.cpp.obj: CMakeFiles/cab_booking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cab_booking.dir/src/Person.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cab_booking.dir/src/Person.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cab_booking.dir/src/Person.cpp.obj -MF CMakeFiles\cab_booking.dir\src\Person.cpp.obj.d -o CMakeFiles\cab_booking.dir\src\Person.cpp.obj -c C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Person.cpp
 
 CMakeFiles/cab_booking.dir/src/Person.cpp.i: cmake_force
@@ -146,11 +161,26 @@ CMakeFiles/cab_booking.dir/src/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cab_booking.dir/src/Person.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Person.cpp -o CMakeFiles\cab_booking.dir\src\Person.cpp.s
 
+CMakeFiles/cab_booking.dir/src/Ride.cpp.obj: CMakeFiles/cab_booking.dir/flags.make
+CMakeFiles/cab_booking.dir/src/Ride.cpp.obj: CMakeFiles/cab_booking.dir/includes_CXX.rsp
+CMakeFiles/cab_booking.dir/src/Ride.cpp.obj: C:/Users/ariji/OneDrive/Desktop/CabBookingSystem/src/Ride.cpp
+CMakeFiles/cab_booking.dir/src/Ride.cpp.obj: CMakeFiles/cab_booking.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cab_booking.dir/src/Ride.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cab_booking.dir/src/Ride.cpp.obj -MF CMakeFiles\cab_booking.dir\src\Ride.cpp.obj.d -o CMakeFiles\cab_booking.dir\src\Ride.cpp.obj -c C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Ride.cpp
+
+CMakeFiles/cab_booking.dir/src/Ride.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cab_booking.dir/src/Ride.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Ride.cpp > CMakeFiles\cab_booking.dir\src\Ride.cpp.i
+
+CMakeFiles/cab_booking.dir/src/Ride.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cab_booking.dir/src/Ride.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Ride.cpp -o CMakeFiles\cab_booking.dir\src\Ride.cpp.s
+
 CMakeFiles/cab_booking.dir/src/User.cpp.obj: CMakeFiles/cab_booking.dir/flags.make
 CMakeFiles/cab_booking.dir/src/User.cpp.obj: CMakeFiles/cab_booking.dir/includes_CXX.rsp
 CMakeFiles/cab_booking.dir/src/User.cpp.obj: C:/Users/ariji/OneDrive/Desktop/CabBookingSystem/src/User.cpp
 CMakeFiles/cab_booking.dir/src/User.cpp.obj: CMakeFiles/cab_booking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cab_booking.dir/src/User.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cab_booking.dir/src/User.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cab_booking.dir/src/User.cpp.obj -MF CMakeFiles\cab_booking.dir\src\User.cpp.obj.d -o CMakeFiles\cab_booking.dir\src\User.cpp.obj -c C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\User.cpp
 
 CMakeFiles/cab_booking.dir/src/User.cpp.i: cmake_force
@@ -165,7 +195,7 @@ CMakeFiles/cab_booking.dir/src/Utils.cpp.obj: CMakeFiles/cab_booking.dir/flags.m
 CMakeFiles/cab_booking.dir/src/Utils.cpp.obj: CMakeFiles/cab_booking.dir/includes_CXX.rsp
 CMakeFiles/cab_booking.dir/src/Utils.cpp.obj: C:/Users/ariji/OneDrive/Desktop/CabBookingSystem/src/Utils.cpp
 CMakeFiles/cab_booking.dir/src/Utils.cpp.obj: CMakeFiles/cab_booking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cab_booking.dir/src/Utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cab_booking.dir/src/Utils.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cab_booking.dir/src/Utils.cpp.obj -MF CMakeFiles\cab_booking.dir\src\Utils.cpp.obj.d -o CMakeFiles\cab_booking.dir\src\Utils.cpp.obj -c C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\Utils.cpp
 
 CMakeFiles/cab_booking.dir/src/Utils.cpp.i: cmake_force
@@ -180,7 +210,7 @@ CMakeFiles/cab_booking.dir/src/main.cpp.obj: CMakeFiles/cab_booking.dir/flags.ma
 CMakeFiles/cab_booking.dir/src/main.cpp.obj: CMakeFiles/cab_booking.dir/includes_CXX.rsp
 CMakeFiles/cab_booking.dir/src/main.cpp.obj: C:/Users/ariji/OneDrive/Desktop/CabBookingSystem/src/main.cpp
 CMakeFiles/cab_booking.dir/src/main.cpp.obj: CMakeFiles/cab_booking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cab_booking.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cab_booking.dir/src/main.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cab_booking.dir/src/main.cpp.obj -MF CMakeFiles\cab_booking.dir\src\main.cpp.obj.d -o CMakeFiles\cab_booking.dir\src\main.cpp.obj -c C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\src\main.cpp
 
 CMakeFiles/cab_booking.dir/src/main.cpp.i: cmake_force
@@ -197,7 +227,9 @@ cab_booking_OBJECTS = \
 "CMakeFiles/cab_booking.dir/src/Cab.cpp.obj" \
 "CMakeFiles/cab_booking.dir/src/Driver.cpp.obj" \
 "CMakeFiles/cab_booking.dir/src/Location.cpp.obj" \
+"CMakeFiles/cab_booking.dir/src/Payment.cpp.obj" \
 "CMakeFiles/cab_booking.dir/src/Person.cpp.obj" \
+"CMakeFiles/cab_booking.dir/src/Ride.cpp.obj" \
 "CMakeFiles/cab_booking.dir/src/User.cpp.obj" \
 "CMakeFiles/cab_booking.dir/src/Utils.cpp.obj" \
 "CMakeFiles/cab_booking.dir/src/main.cpp.obj"
@@ -209,7 +241,9 @@ cab_booking.exe: CMakeFiles/cab_booking.dir/src/Admin.cpp.obj
 cab_booking.exe: CMakeFiles/cab_booking.dir/src/Cab.cpp.obj
 cab_booking.exe: CMakeFiles/cab_booking.dir/src/Driver.cpp.obj
 cab_booking.exe: CMakeFiles/cab_booking.dir/src/Location.cpp.obj
+cab_booking.exe: CMakeFiles/cab_booking.dir/src/Payment.cpp.obj
 cab_booking.exe: CMakeFiles/cab_booking.dir/src/Person.cpp.obj
+cab_booking.exe: CMakeFiles/cab_booking.dir/src/Ride.cpp.obj
 cab_booking.exe: CMakeFiles/cab_booking.dir/src/User.cpp.obj
 cab_booking.exe: CMakeFiles/cab_booking.dir/src/Utils.cpp.obj
 cab_booking.exe: CMakeFiles/cab_booking.dir/src/main.cpp.obj
@@ -217,7 +251,7 @@ cab_booking.exe: CMakeFiles/cab_booking.dir/build.make
 cab_booking.exe: CMakeFiles/cab_booking.dir/linkLibs.rsp
 cab_booking.exe: CMakeFiles/cab_booking.dir/objects1.rsp
 cab_booking.exe: CMakeFiles/cab_booking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable cab_booking.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ariji\OneDrive\Desktop\CabBookingSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable cab_booking.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cab_booking.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
