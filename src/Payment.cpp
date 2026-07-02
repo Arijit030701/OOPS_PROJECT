@@ -10,8 +10,6 @@ bool Payment::getStatus() const { return isCompleted; }
 double Payment::getAmount() const { return amount; }
 std::string Payment::getId() const { return paymentID; }
 
-// --- Derived Classes Implementation ---
-
 CashPayment::CashPayment(std::string id, double amt) : Payment(std::move(id), amt) {}
 void CashPayment::processPayment() {
     std::cout << "[Cash] Collecting Rs. " << amount << " from passenger...\n";

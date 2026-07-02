@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cab_booking.dir/src/Admin.cpp.obj"
   "CMakeFiles/cab_booking.dir/src/Admin.cpp.obj.d"
+  "CMakeFiles/cab_booking.dir/src/BookingSystem.cpp.obj"
+  "CMakeFiles/cab_booking.dir/src/BookingSystem.cpp.obj.d"
   "CMakeFiles/cab_booking.dir/src/Cab.cpp.obj"
   "CMakeFiles/cab_booking.dir/src/Cab.cpp.obj.d"
   "CMakeFiles/cab_booking.dir/src/Driver.cpp.obj"

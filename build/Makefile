@@ -152,6 +152,30 @@ src/Admin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/Admin.cpp.s
 .PHONY : src/Admin.cpp.s
 
+src/BookingSystem.obj: src/BookingSystem.cpp.obj
+.PHONY : src/BookingSystem.obj
+
+# target to build an object file
+src/BookingSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/BookingSystem.cpp.obj
+.PHONY : src/BookingSystem.cpp.obj
+
+src/BookingSystem.i: src/BookingSystem.cpp.i
+.PHONY : src/BookingSystem.i
+
+# target to preprocess a source file
+src/BookingSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/BookingSystem.cpp.i
+.PHONY : src/BookingSystem.cpp.i
+
+src/BookingSystem.s: src/BookingSystem.cpp.s
+.PHONY : src/BookingSystem.s
+
+# target to generate assembly for a file
+src/BookingSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cab_booking.dir\build.make CMakeFiles/cab_booking.dir/src/BookingSystem.cpp.s
+.PHONY : src/BookingSystem.cpp.s
+
 src/Cab.obj: src/Cab.cpp.obj
 .PHONY : src/Cab.obj
 
@@ -380,6 +404,9 @@ help:
 	@echo ... src/Admin.obj
 	@echo ... src/Admin.i
 	@echo ... src/Admin.s
+	@echo ... src/BookingSystem.obj
+	@echo ... src/BookingSystem.i
+	@echo ... src/BookingSystem.s
 	@echo ... src/Cab.obj
 	@echo ... src/Cab.i
 	@echo ... src/Cab.s
